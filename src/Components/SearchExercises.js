@@ -54,10 +54,10 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                 </Button>
             </Box>
             <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
-                <HorizontalScrollBar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+                <HorizontalScrollBar data={bodyParts} bodyParts bodyPart={bodyPart} setBodyPart={setBodyPart} />
             </Box>
         </Stack>
     )
 }
 
-export default SearchExercises
+export default SearchExercises;

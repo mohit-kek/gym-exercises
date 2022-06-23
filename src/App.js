@@ -11,7 +11,7 @@ function App() {
     <Box width="400px" sx={{ width: { x1: '1488px' } }} m="auto">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetails />} />
       </Routes>
       <Footer />
